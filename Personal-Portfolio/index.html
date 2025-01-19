@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Hamburger Menu</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <i class="fa-brands fa-webflow"></i>
+                <div class="logo-text">HIKMA</div>
+            </div>
+        
+        
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="Hamburger" id="Hamburger">
+                    <i class="fa-solid fa-bars" id="open-icon"></i>
+                    <i class="fa-solid fa-xmark" id="close-icon"></i>
+                </div>
+                
+              
+
+             
+
+        </nav>
+    </header>
+<section class="home" >
+    <div class="home-text">
+        <span>Hi, I'm Hikma</span>
+        <h2>Frontend Developer</h2>
+        <p>I'm a passionate web developer with a focus on front-end development.</p>
+       <div class="main-btn">
+        <a href="#contact" class="btn">Contact Me</a> 
+        <a href="#cv" class="btn">Download CV</a>  
+       </div>    
+
+
+    </div>
+    <div class="home-img">
+        <img src="/assets/hikma.png" alt="hikma">
+    </div>
+
+</section>
+
+<section class="about" id="about"> 
+    <div class="about-container">
+        <div class="about-img">
+            <img src="./assets/about.png" alt="about me">
+        </div>
+        <div class="about-text">
+            <h2>About Me</h2>
+            <p>
+                I'm a passionate web developer with a focus on creating interactive and visually appealing web applications. 
+                With experience in HTML, CSS, JavaScript, and frameworks like React, I bring ideas to life on the web. 
+                In my free time, I enjoy exploring new technologies and learning about modern design trends.
+            </p>
+            <a href="#projects" class="btn">See My Work</a>
+        </div>
+        
+    </div>
+ </section>  
+
+ <section class="skills">
+<div class="skills-container">
+    <h2>My Skills</h2>
+    <p>Here are Some of the technical skills I've mastered:</p>
+    <div class="skills-grid">
+        <div class="skill">
+            <i class="fa-brands fa-html5"></i>
+            <h3>HTML</h3>
+        </div>
+        <div class="skill">
+            <i class="fa-brands fa-css3-alt"></i>
+            <h3>CSS</h3>
+        </div>
+        <div class="skill">
+            <i class="fa-brands fa-js"></i>
+            <h3>Java Script</h3>
+        </div>
+        <div class="skill">
+            <i class="fa-brands fa-react"></i>
+            <h3>React</h3>
+        </div>
+        <div class="skill">
+            <i class="fa-brands fa-node"></i>
+                    <h3>Node.js</h3>
+        </div>
+        <div class="skill">
+            <i class="fa-brands fa-git-alt"></i>
+                    <h3>Git</h3>
+        </div>
+    </div>
+</div>
+ </section>
+
+ <section id="Projects">
+    <div class="project-container">
+        <h2>My Projects</h2>
+        <p>Explore some of the projects I've worked on:</p>
+        <div class="project-grid">
+            <div class="project-card">
+                <img src="./assets/project1.png" alt="project1">
+                <div class="project-info">
+                    <h3>Portfolio Website</h3>
+                    <p>A personal portfolio showcasing my work and skills.</p>
+                    <a href="#" class="btn">View project</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="./assets/project2.jpg" alt="project2">
+                <div class="project-info">
+                    <h3>E-commerce Platform</h3>
+                    <p>An online store with a user-friendly interface and payment integration.</p>
+                    <a href="#" class="btn">View project</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="./assets/project3.png" alt="project3">
+                <div class="project-info">
+                    <h3>Blog Website</h3>
+                    <p>A fully functional blog with dynamic content and comment features.</p>
+                    <a href="#" class="btn">View project</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="Contact">
+    <div class="contact-container">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out for any inquiries or collaborations!</p>
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Get in Touch</h3>
+               <p> <i class="fa-solid fa-phone"></i>+123 456 789</p>
+               <p><i class="fa-solid fa-envelope"></i> hikma@example.com</p>
+                <p><i class="fa-solid fa-map-marker-alt"></i> Mogadishu, Somalia</p>
+                <div class="social-links">
+                    <a href="#"> <i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form action="#" method="post">
+                    <input type="text" name="Name" placeholder=" Your Name" required>
+                    <input type="text" name="Email " placeholder="Your Email" required>
+                    <textarea name="Message" rows="5" placeholder="your Message" ></textarea>
+                    <button type="submit" class="btn"> Send Message</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+</section>
+<footer id="footer">
+    <div class="footer-container">
+        <div class="footer-logo">
+            <h2>Hikma</h2>
+            <p>Creating impactful web solutions with passionand precision.</p>
+        </div>
+
+   <div class="footer-links">
+    <h3>Quick Links</h3>
+    <ul>
+        <li><a href="#home"> Home</a></li>
+        <li><a href="#about"> About</a></li>
+        <li><a href="#projects"> Projects</a></li>
+        <li><a href="#contact"> Contact</a></li>
+    </ul>
+   </div>
+   <div class="footer-social">
+    <h3>Follow Me</h3>
+    <div class="social-links">
+        <a href="#"> <i class="fa-brands fa-facebook"></i></a>
+        <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+    </div>
+   </div>
+
+        
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2025 HIKMA. All Rights Reserved.</p>
+    </div>
+</footer>
+
+    
+    
+
+
+    
+    <script src="main.js"></script>
+    </body>
+    </html>
+    
